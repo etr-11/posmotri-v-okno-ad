@@ -210,7 +210,7 @@ function generateFilterRequest(endpoint, city, timeArray) {
   return endpoint;
 }
 
-// переключает текущее видео ✅
+// переключает текущее видео 
 function chooseCurrentVideo({
   baseUrl,
   videoData,
@@ -246,7 +246,7 @@ function chooseCurrentVideo({
   }
 }
 
-// вывожу интерфейс, когда видео не найдено ✅
+// вывожу интерфейс, когда видео не найдено 
 function showError(container, errorTemplate, errorMessage) {
   const node = errorTemplate.content.cloneNode(true);
   node.querySelector('.error__title').textContent = errorMessage;
